@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="password-section">
+        <h2>Enter Password</h2>
+        <input type="password" id="password-input" placeholder="Enter password">
+        <button id="submit-password">Submit</button>
+        <p id="error-message" style="color:red;display:none;">Wrong password!</p>
+    </div>
+
+    <div id="main-content" style="display:none;">
+        <h1>Welcome to the Most Skibidi Website</h1>
+        <p id="total-attempts"></p>
+        <p id="yesterday-attempts"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
